@@ -1,0 +1,49 @@
+import java.io.*;
+import java.util.*;
+import java.text.*;
+import java.math.*;
+import java.util.regex.*;
+
+public class Solution {
+	
+    public static void main(String[] args) {
+        int i = 4;
+        double d = 4.0;
+        String s = "HackerRank ";
+		
+        Scanner scan = new Scanner(System.in);
+
+/* Declare second integer, double, and String variables. */
+   int intNumber =0;
+    double doubleNumber = 0.0;
+    String sentence = " ";
+
+     //   System.out.println("Enter 12"); Must occur automatically
+        Scanner inputScanner = new Scanner(System.in); // Create a Scanner object
+        String inputString = inputScanner.nextLine();     
+        intNumber = Integer.parseInt(inputString);
+        int total = intNumber + i;
+        System.out.println(total);
+
+    //    System.out.println("Enter 4.0");
+        inputString = inputScanner.nextLine();
+        doubleNumber = Double.parseDouble(inputString);
+        doubleNumber += d;
+        /* Print the sum of the double variables on a new line. */
+        System.out.println(doubleNumber);
+
+   // System.out.println("Enter is the best place to learn and practice coding!");
+        inputString = inputScanner.nextLine();
+        s += inputString;
+        System.out.println(s);
+        
+        inputScanner.close();
+        /* Read and save an integer, double, and String to your variables.*/
+        // Note: If you have trouble reading the entire String, please go back and review the Tutorial closely.
+        
+        /* Print the sum of both integer variables on a new line. */
+
+        /* Print the sum of the double variables on a new line. */
+		
+        // Concatenate and 
+        scan.close();
